@@ -1,5 +1,11 @@
 # 👟 Fashion MNIST Classification with W&B (PyTorch)
 
+---
+
+<p align="center">
+  <img src="fashion_mnist_wandb.png" alt="Fashion MNIST W&B Banner" width="800"/>
+</p>
+---
 This project builds a Convolutional Neural Network (CNN) to classify images from the [Fashion MNIST dataset](https://github.com/zalandoresearch/fashion-mnist). The entire training pipeline is integrated with [Weights & Biases (W&B)](https://wandb.ai/) to enable seamless experiment tracking, visualization, and hyperparameter optimization.
 
 > ✅ Built using PyTorch and tested entirely on Google Colab.  
