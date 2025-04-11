@@ -1,4 +1,4 @@
-# 👟 Fashion MNIST Classification with W&B (PyTorch)
+#  Fashion MNIST Classification with W&B (PyTorch)
 
 ---
 
@@ -10,23 +10,23 @@
 
 This project builds a Convolutional Neural Network (CNN) to classify images from the [Fashion MNIST dataset](https://github.com/zalandoresearch/fashion-mnist). The entire training pipeline is integrated with [Weights & Biases (W&B)](https://wandb.ai/) to enable seamless experiment tracking, visualization, and hyperparameter optimization.
 
-> ✅ Built using PyTorch and tested entirely on Google Colab.  
-> ✅ Hyperparameter tuning via W&B Sweeps.  
-> ✅ Fully aligned with academic assignment requirements.
+>  Built using PyTorch and tested entirely on Google Colab.  
+>  Hyperparameter tuning via W&B Sweeps.  
+>  Fully aligned with academic assignment requirements.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 📊 **Live logging** of training and validation loss/accuracy to W&B
-- 🎯 **Hyperparameter sweeps** with random search strategy
-- 🔎 Visualize training performance over multiple runs
-- 🧪 Experiment with dropout rates, learning rates, batch sizes, and epochs
-- 🖼️ Uses Fashion MNIST dataset (10 grayscale classes)
+-  **Live logging** of training and validation loss/accuracy to W&B
+-  **Hyperparameter sweeps** with random search strategy
+-  Visualize training performance over multiple runs
+-  Experiment with dropout rates, learning rates, batch sizes, and epochs
+-  Uses Fashion MNIST dataset (10 grayscale classes)
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 ```
 Input Layer       : 28x28 grayscale image
@@ -42,7 +42,7 @@ Output (10)       : Softmax
 
 ---
 
-## 🧪 Base Configuration
+##  Base Configuration
 
 ```python
 learning_rate: 0.001  
@@ -53,7 +53,7 @@ dropout_rate : 0.5
 
 ---
 
-## 🔁 Hyperparameter Sweep
+##  Hyperparameter Sweep
 
 Performed a **random search sweep** to optimize:
 
@@ -64,12 +64,12 @@ Performed a **random search sweep** to optimize:
 | `epochs`         | [5, 10, 15]                         |
 | `dropout_rate`   | [0.3, 0.5, 0.7]                     |
 
-- 🎯 **Metric optimized:** Validation Accuracy  
-- 🔁 **Sweep count:** 10 runs
+-  **Metric optimized:** Validation Accuracy  
+-  **Sweep count:** 10 runs
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 fashion-mnist-wandb-cnn/
@@ -82,13 +82,13 @@ fashion-mnist-wandb-cnn/
 
 ---
 
-## 📈 Example Logs & Results
+##  Example Logs & Results
 
 Track experiments at: [https://wandb.ai/m24csa013-indian-institute-of-technology-jodhpur/fashion-mnist-classification?nw=nwuserm24csa013](https://wandb.ai/)  
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 If running locally:
 
@@ -102,7 +102,7 @@ Or run directly in **Google Colab** [📎 Notebook Link](https://colab.research.
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 
 - PyTorch CNN implementation  
 - Real-time experiment tracking with W&B  
@@ -111,7 +111,7 @@ Or run directly in **Google Colab** [📎 Notebook Link](https://colab.research.
 
 ---
 
-## 🙋‍♂️ Author
+##  Author
 
 **Jyotishman Das**  
 Master's AI Student @ IIT Jodhpur  
@@ -120,6 +120,6 @@ Website: [Portfolio](https://my-portfolio-jyotishman-das-projects.vercel.app/)
 
 ---
 
-## 📜 License
+##  License
 
 This project is for educational and demonstration purposes.
